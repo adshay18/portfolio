@@ -10,7 +10,11 @@ const NavBar = () => {
               className="card bg-dark border-0 col-6 col-lg-4 py-4"
               style={{ width: 18 + "rem" }}
             >
-              <img src={thumbnail} className="card-img-top" alt="Andrew" />
+              <img
+                src={thumbnail}
+                className="card-img-top rounded"
+                alt="Andrew"
+              />
             </div>
             <div className="col-6 col-lg-4 py-5">
               <h4 className="text-white">Contact</h4>
@@ -56,15 +60,18 @@ const NavBar = () => {
               <div className="card-body">
                 <p className="card-text text-light">
                   I am a Software Engineer based out of the Detroit Metropolitan
-                  area. My skills include:
+                  area. My training is through Springboard's Software
+                  Engineering Bootcamp.
                 </p>
               </div>
             </div>
             <div className="card col-6 col-lg-4 bg-dark border-0 py-4">
+              <h4 className="text-white">Skills</h4>
               <div className="card-body justify-content-center">
                 <p className="card-text text-light">
-                  HTML, CSS, , JavaScript, git, jQuery, DOM, Python, Flask,
-                  Node, Express, SQL, AJAX, GitHub, Terminal, VBA, Excel
+                  HTML, CSS, JavaScript, git, jQuery, DOM, Python, Flask, Node,
+                  Express, SQL, PostgreSQL, AJAX, GitHub, Terminal, VBA, Excel,
+                  Bootstrap
                 </p>
               </div>
             </div>

@@ -10,7 +10,8 @@ const Footer = () => {
         </p>
         <p>
           All work is &copy; Andrew Shay, please reach out to inquire about a
-          custom website.{" "}
+          custom website.
+          <br></br>
           <a
             target="_blank"
             rel="noreferrer"
