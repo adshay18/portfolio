@@ -1,7 +1,7 @@
 const NavBar = () => {
 
     return (
-        <header>
+        <header className="sticky-top">
         <div className="collapse bg-dark" id="navbarHeader">
             <div className="container">
                 <div className="row justify-content-center">
