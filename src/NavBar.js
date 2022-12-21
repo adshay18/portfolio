@@ -1,3 +1,5 @@
+import thumbnail from './photos/1636032030153.jpeg';
+
 const NavBar = () => {
 
     return (
@@ -6,7 +8,7 @@ const NavBar = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="card bg-dark border-0 col-6 col-lg-4 py-4" style={{width: 18 + 'rem'}}>
-                        <img src="https://avatars.githubusercontent.com/u/94015928?v=4" className="card-img-top" alt="Andrew" />
+                        <img src={thumbnail} className="card-img-top" alt="Andrew" />
                     </div>
                     <div className="col-6 col-lg-4 py-5">
                         <h4 className="text-white">Contact</h4>
