@@ -1,9 +1,12 @@
+import bored from "./photos/bored.png";
+import pet_portraits from "./photos/pet_portraits.png";
+import picl from "./photos/picl.png";
+
 const LinkContainer = () => {
   const sites = [
-    { url: "https://picl.quest/" },
-    { url: "https://kellyjamesart.shop" },
-    "https://shay-jobly.surge.sh/",
-    "https://not-bored.surge.sh/",
+    { url: "https://picl.quest/", image: picl },
+    { url: "https://kellyjamesart.shop", image: pet_portraits },
+    { url: "https://not-bored.surge.sh/", image: bored },
   ];
   return (
     <div className="container">
