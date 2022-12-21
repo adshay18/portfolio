@@ -1,14 +1,14 @@
 const LinkCard = (props) => {
   return (
-    <div className="col-9 bg-dark align-items-center m-4">
+    <div className="col-9 bg-dark align-items-center m-4 shadow rounded">
       <a
         href={props.url}
-        className="card-link text-white"
+        className="text-white"
         target="_blank"
         rel="noreferrer"
       >
         <img
-          className="py-2"
+          className="py-2 card-link"
           src={props.image}
           alt="Card image cap"
           style={{ width: 100 + "%" }}

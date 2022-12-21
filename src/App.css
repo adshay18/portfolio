@@ -44,3 +44,7 @@ body {
 .links {
   width: 100%;
 }
+
+.card-link:hover {
+  outline: auto;
+}
