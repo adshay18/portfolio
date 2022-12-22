@@ -57,6 +57,7 @@ const NavBar = () => {
               className="card col-6 py-4 col-lg-4 bg-dark border-0"
               style={{ width: 18 + "rem" }}
             >
+              <h4 className="text-white">About</h4>
               <div className="card-body">
                 <p className="card-text text-light">
                   I am a Software Engineer based out of the Detroit Metropolitan
