@@ -2,6 +2,7 @@ import LinkCard from "./LinkCard";
 import bored from "./photos/bored.png";
 import pet_portraits from "./photos/pet_portraits.png";
 import picl from "./photos/picl.png";
+import jobly from "./photos/jobly.png";
 
 const LinkContainer = () => {
   const sites = [
@@ -22,6 +23,12 @@ const LinkContainer = () => {
       image: bored,
       description:
         "Created interactive site with an internal Express.js API to handle user data and requests per RESTful techniques. The frontend of the site is built on React.js, and Reactstrap, for a beautiful user experience. Users can search for things to do to cure their boredom and earn badges while doing it.",
+    },
+    {
+      url: "https://shay-jobly.surge.sh/",
+      image: jobly,
+      description:
+        "Demo application built on an Express.js backend with a React App frontend. Data is currently populated with mock companies and jobs, but ready to handle submissions.",
     },
   ];
   return (
