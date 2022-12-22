@@ -2,7 +2,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import LinkContainer from "./LinkContainer";
-import Resume from "./documents/Andrew_Shay_Resume.pdf";
+import Resume from "./photos/resume.png";
 
 function App() {
   return (
